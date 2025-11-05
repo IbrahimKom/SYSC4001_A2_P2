@@ -12,7 +12,7 @@ int main(void) {
     }
     else if (pid == 0) {
         // child replace this process image with process2
-        execl("./process2", "process2", (char *)NULL);
+        execl("./process2_101308485", "process2_101308485", (char*)NULL);
 
         // if execl returns, it failed
         perror("execl");

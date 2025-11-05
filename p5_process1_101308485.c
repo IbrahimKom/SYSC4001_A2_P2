@@ -1,4 +1,4 @@
-#include "p5_common.h"
+#include "p5_common_101308485.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -25,7 +25,7 @@ int main(void) {
     pid_t pid = fork();
     if (pid < 0) { perror("fork"); return 1; }
     if (pid == 0) {
-        execl("./p5_process2", "p5_process2", (char*)NULL);
+        execl("./p5_process2_101308485", "p5_process2_101308485", (char*)NULL);
         perror("execl"); return 1;
     }
 

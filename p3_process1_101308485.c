@@ -7,7 +7,7 @@ int main(void) {
     pid_t pid = fork();
     if (pid < 0) { perror("fork"); return 1; }
     if (pid == 0) {
-        execl("./p3_process2", "p3_process2", (char*)NULL);
+        execl("./p3_process2_101308485", "p3_process2_101308485", (char*)NULL);
         perror("execl"); return 1;
     }
 
