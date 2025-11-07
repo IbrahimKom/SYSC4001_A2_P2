@@ -1,0 +1,25 @@
+# Compiled programs
+part1
+process1
+process2
+p3_process1
+p3_process2
+p4_process1
+p4_process2
+p5_process1
+p5_process2
+
+part1_101308485
+process1_101308485
+process2_101308485
+p3_process1_101308485
+p3_process2_101308485
+p4_process1_101308485
+p4_process2_101308485
+p5_process1_101308485
+p5_process2_101308485
+
+# Object files / misc
+*.o
+a.out
+core
